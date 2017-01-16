@@ -26,8 +26,7 @@
     "jm-core": "*",
     "jm-ms-core": "*",
     "jm-mq": "*",
-    "jm-common": "*",
-    "superagent": "*"
+    "jm-common": "*"
   },
   "devDependencies": {
     "jm-ms": "*",
