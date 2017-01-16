@@ -1,0 +1,46 @@
+{
+  "name": "jm-oms",
+  "version": "0.0.1",
+  "description": "operation manage system",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node app",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-oms.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-oms",
+    "oms"
+  ],
+  "author": "Jeff YU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-oms/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-oms",
+  "dependencies": {
+    "jm-core": "*",
+    "jm-ms-core": "*",
+    "jm-mq": "*",
+    "jm-common": "*",
+    "superagent": "*"
+  },
+  "devDependencies": {
+    "jm-ms": "*",
+    "jm-sdk-core": "*",
+    "bluebird": "*",
+    "jshint": "*",
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-jshint": "*",
+    "gulp-rename": "*",
+    "gulp-sequence": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*"
+  }
+}
