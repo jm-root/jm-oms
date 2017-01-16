@@ -1,5 +1,5 @@
 var log4js = require('log4js');
-log4js.configure('./config/log4js.json');
+//log4js.configure('./config/log4js.json');
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 var config = require('./config');
@@ -37,7 +37,9 @@ var ms = jm.ms;
 var app = ms();
 app.servers = {};
 app.config = config;
-var opts = {};
+var opts = {
+    sdk: config.sdk
+};
 if(config.mq) opts.mq = require('jm-mq')({url: config.mq});
 var service = require('./lib')(opts);
 app.use(config.prefix || '', service.router());

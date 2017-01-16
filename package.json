@@ -23,14 +23,12 @@
   },
   "homepage": "https://github.com/jm-root/jm-oms",
   "dependencies": {
-    "jm-core": "*",
     "jm-ms-core": "*",
     "jm-mq": "*",
-    "jm-common": "*"
+    "jm-config": "*"
   },
   "devDependencies": {
     "jm-ms": "*",
-    "jm-sdk-core": "*",
     "bluebird": "*",
     "jshint": "*",
     "gulp": "*",

@@ -4,7 +4,7 @@ var config = {
         port: 20170,
         prefix:'/oms',
         mq: 'redis://localhost:6379',
-        sdk: 'http://jamma.3322.org:19990 ',
+        sdk: 'http://localhost:20200',
         ms: [
             {
                 type: 'ws'

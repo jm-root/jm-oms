@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "icon": "glyphicon glyphicon-bullhorn",
     "title": "推广地址",
@@ -759,4 +759,4 @@
     "code": "nav_config_unified",
     "uisref": "app.config.unified"
   }
-]
+];
