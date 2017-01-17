@@ -3,8 +3,8 @@ var config = {
         debug: true,
         port: 20170,
         prefix:'/oms',
-        mq: 'redis://localhost:6379',
-        sdk: 'http://localhost:20200',
+        mq: 'redis://192.168.0.33:6379',
+        sdk: 'http://192.168.0.55:19990',
         ms: [
             {
                 type: 'ws'
