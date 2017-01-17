@@ -25,7 +25,8 @@
   "dependencies": {
     "jm-ms-core": "*",
     "jm-mq": "*",
-    "jm-config": "*"
+    "jm-config": "*",
+    "jm-sdk-core": "*"
   },
   "devDependencies": {
     "jm-ms": "*",
