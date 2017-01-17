@@ -1,7 +1,5 @@
 var log4js = require('log4js');
-//log4js.configure('./config/log4js.json');
-var mongoose = require('mongoose');
-mongoose.Promise = require('bluebird');
+log4js.configure('./config/log4js.json');
 var config = require('./config');
 var jm = require('jm-ms');
 var logger = jm.getLogger('jm-acl');
