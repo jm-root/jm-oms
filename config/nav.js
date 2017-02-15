@@ -481,7 +481,7 @@ module.exports = [
             {
                 "icon": "icon-settings",
                 "title": "T币库存",
-                "code": "app.coin.stock",
+                "code": "app.coin.stock.manage",
                 "active": "app.coin.stock",
                 "children": [
                     {
@@ -507,7 +507,7 @@ module.exports = [
             {
                 "icon": "icon-settings",
                 "title": "T币分发",
-                "code": "app.coin.distribute",
+                "code": "app.coin.distribute.manage",
                 "active": "app.coin.distribute",
                 "children": [
                     {
@@ -527,7 +527,7 @@ module.exports = [
             {
                 "icon": "icon-settings",
                 "title": "账号管理",
-                "code": "app.coin.account",
+                "code": "app.coin.account.manage",
                 "active": "app.coin.account",
                 "children": [
                     {
@@ -541,7 +541,7 @@ module.exports = [
             {
                 "icon": "icon-settings",
                 "title": "使用记录",
-                "code": "app.coin.record",
+                "code": "app.coin.record.manage",
                 "active": "app.coin.record",
                 "children": [
                     {
@@ -569,7 +569,7 @@ module.exports = [
     {
         "icon": "icon-settings",
         "title": "统计报表",
-        "code": "app.report",
+        "code": "app.report.manage",
         "active": "app.report",
         "children": [
             {
