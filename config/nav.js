@@ -342,24 +342,10 @@ module.exports = [
         "children": [
             {
                 "icon": "icon-puzzle",
-                "title": "分类管理",
-                "code": "app.shop.category",
-                "active": "app.shop.category",
-                "uisref": "app.shop.category.list"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "产品品管理",
+                "title": "商品管理",
                 "code": "app.shop.product",
                 "active": "app.shop.product",
                 "uisref": "app.shop.product.list"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "订单管理",
-                "code": "app.shop.order",
-                "active": "app.shop.order",
-                "uisref": "app.shop.order.list"
             },
             {
                 "icon": "icon-puzzle",
@@ -370,10 +356,10 @@ module.exports = [
             },
             {
                 "icon": "icon-puzzle",
-                "title": "抽奖管理",
-                "code": "app.shop.bet",
-                "active": "app.shop.bet",
-                "uisref": "app.shop.bet.list"
+                "title": "中奖管理",
+                "code": "app.shop.lotteryWin",
+                "active": "app.shop.lotteryWin",
+                "uisref": "app.shop.lotteryWin.list"
             }
         ]
     },
