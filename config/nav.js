@@ -1,87 +1,5 @@
 module.exports = [
     {
-        "code": "app.acl.manage",
-        "title": "权限管理",
-        "icon": "icon-settings",
-        "active": "app.acl",
-        "children":[
-            {
-                "code": "app.acl.user",
-                "title": "用户管理",
-                "icon": "icon-user",
-                "active": "app.acl.users",
-                "uisref": "app.acl.users.list"
-            },
-            {
-                "code": "app.acl.role",
-                "title": "角色管理",
-                "icon": "icon-user",
-                "active": "app.acl.role",
-                "uisref": "app.acl.role"
-            },
-            {
-
-                "code": "app.acl.resource",
-                "title": "资源管理",
-                "icon": "icon-star",
-                "active": "app.acl.resource",
-                "uisref": "app.acl.resource"
-            }
-        ]
-    },
-    {
-        "icon": "icon-settings",
-        "title": "配置管理",
-        "code": "app.config.manage",
-        "active": "app.config",
-        "children": [
-            {
-                "icon": "icon-puzzle",
-                "title": "菜单配置",
-                "code": "app.config.menus",
-                "uisref": "app.config.menus"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "系统初始化",
-                "code": "app.config.systeminit",
-                "uisref": "app.config.systeminit"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "系统配置",
-                "code": "app.config.systemconfig",
-                "uisref": "app.config.systemconfig"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "统一配置",
-                "code": "app.config.unified",
-                "uisref": "app.config.unified"
-            }
-        ]
-    },
-    {
-        "icon": "icon-settings",
-        "title": "系统管理",
-        "code": "app.system.manage",
-        "active": "app.system",
-        "children": [
-            {
-                "icon": "icon-puzzle",
-                "title": "管理员列表",
-                "code": "app.system.admin",
-                "uisref": "app.system.admin"
-            },
-            {
-                "icon": "icon-puzzle",
-                "title": "系统日志",
-                "code": "app.system.log",
-                "uisref": "app.system.log"
-            }
-        ]
-    },
-    {
         "code": "app.promote",
         "title": "推广地址",
         "icon": "glyphicon glyphicon-bullhorn",
@@ -256,6 +174,12 @@ module.exports = [
                 "code": "app.home.checkin",
                 "active": "app.home.checkin",
                 "uisref": "app.home.checkin.list"
+            },
+            {
+                "icon": " icon-puzzle",
+                "title": "转盘配置",
+                "code": "app.home.turntable",
+                "uisref": "app.home.turntable"
             },
             {
                 "icon": " icon-puzzle",
@@ -619,6 +543,129 @@ module.exports = [
                 "title": "支付列表",
                 "code": "app.bank.pay.list",
                 "uisref": "app.bank.pay.list"
+            }
+        ]
+    },
+    {
+        "code": "app.per.manage",
+        "title": "权限管理",
+        "icon": "icon-settings",
+        "active": "app.per",
+        "children":[
+            {
+                "code": "app.per.org",
+                "title": "组织管理",
+                "icon": "icon-puzzle",
+                "uisref": "app.per.org"
+            },
+            {
+                "code": "app.per.users",
+                "title": "用户管理",
+                "icon": "icon-user",
+                "active": "app.per.users",
+                "uisref": "app.per.users.list"
+            },
+            {
+                "code": "app.per.role",
+                "title": "角色管理",
+                "icon": "icon-people",
+                "uisref": "app.per.role"
+            },
+            {
+
+                "code": "app.per.resource",
+                "title": "资源管理",
+                "icon": "icon-star",
+                "uisref": "app.per.resource"
+            },
+            {
+
+                "code": "app.per.roleUser",
+                "title": "角色用户",
+                "icon": "icon-user-follow",
+                "uisref": "app.per.roleUser"
+            }
+        ]
+    },
+    {
+        "code": "app.acl.manage",
+        "title": "权限管理(新)",
+        "icon": "icon-settings",
+        "active": "app.acl",
+        "children":[
+            {
+                "code": "app.acl.user",
+                "title": "用户管理",
+                "icon": "icon-user",
+                "active": "app.acl.users",
+                "uisref": "app.acl.users.list"
+            },
+            {
+                "code": "app.acl.role",
+                "title": "角色管理",
+                "icon": "icon-user",
+                "active": "app.acl.role",
+                "uisref": "app.acl.role"
+            },
+            {
+
+                "code": "app.acl.resource",
+                "title": "资源管理",
+                "icon": "icon-star",
+                "active": "app.acl.resource",
+                "uisref": "app.acl.resource"
+            }
+        ]
+    },
+    {
+        "icon": "icon-settings",
+        "title": "系统管理",
+        "code": "app.system.manage",
+        "active": "app.system",
+        "children": [
+            {
+                "icon": "icon-puzzle",
+                "title": "管理员列表",
+                "code": "app.system.admin",
+                "uisref": "app.system.admin"
+            },
+            {
+                "icon": "icon-puzzle",
+                "title": "系统日志",
+                "code": "app.system.log",
+                "uisref": "app.system.log"
+            }
+        ]
+    },
+    {
+        "icon": "icon-settings",
+        "title": "配置管理",
+        "code": "app.config.manage",
+        "active": "app.config",
+        "children": [
+            {
+                "icon": "icon-puzzle",
+                "title": "菜单配置",
+                "code": "app.config.menus",
+                "uisref": "app.config.menus"
+            },
+            {
+                "icon": "icon-puzzle",
+                "title": "系统初始化",
+                "code": "app.config.systeminit",
+                "uisref": "app.config.systeminit"
+            },
+            {
+                "icon": "icon-puzzle",
+                "title": "系统配置",
+                "code": "app.config.systemconfig",
+                "uisref": "app.config.systemconfig"
+            },
+            {
+                "icon": "icon-puzzle",
+                "title": "统一配置",
+                "code": "app.config.unified",
+                "uisref": "app.config.unified"
             }
         ]
     }
