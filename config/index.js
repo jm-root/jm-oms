@@ -3,8 +3,8 @@ var config = {
         debug: true,
         port: 20170,
         prefix:'/oms',
-        mq: 'redis://192.168.0.33:6379',
-        sdk: 'http://192.168.0.55:19990',
+        mq: 'redis://localhost',
+        sdk: 'http://test.gzleidi.cn:82',
         ms: [
             {
                 type: 'ws'
@@ -17,8 +17,8 @@ var config = {
     production: {
         port: 20170,
         prefix:'/oms',
-        mq: 'redis://redis:6379',
-        sdk: 'http://sdk:19990',
+        mq: 'redis://redis.db',
+        sdk: 'http://api.web',
         ms: [
             {
                 type: 'ws'
