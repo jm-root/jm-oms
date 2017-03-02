@@ -5,6 +5,7 @@
   "main": "./lib/index",
   "scripts": {
     "start": "node app",
+    "cluster": "node cluster",
     "test": "node test"
   },
   "repository": {
