@@ -25,7 +25,7 @@
   "homepage": "https://github.com/jm-root/jm-oms",
   "dependencies": {
     "async": "*",
-    "jm-server": "*",
+    "jm-server": "~0.1.0",
     "jm-mq": "*",
     "jm-config": "*",
     "jm-sdk-core": "*"
