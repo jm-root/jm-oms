@@ -4,8 +4,8 @@
   "description": "operation manage system",
   "main": "./lib/index",
   "scripts": {
-    "start": "jm-server",
-    "cluster": "jm-server --cluster",
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
     "test": "node test"
   },
   "repository": {
