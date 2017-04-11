@@ -1,6 +1,6 @@
 {
   "name": "jm-oms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "operation manage system",
   "main": "./lib/index",
   "scripts": {
@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/jm-root/jm-oms",
   "dependencies": {
-    "async": "*",
-    "jm-server": "~0.1.0",
-    "jm-mq": "*",
-    "jm-config": "*",
-    "jm-sdk-core": "*"
+    "async": "^2.3.0",
+    "jm-config": "~0",
+    "jm-mq": "~0",
+    "jm-sdk-core": "~0",
+    "jm-server": "~0"
   },
   "devDependencies": {
     "bluebird": "*",
