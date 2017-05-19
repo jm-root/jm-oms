@@ -1,11 +1,11 @@
 {
   "name": "jm-oms",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "operation manage system",
   "main": "./lib/index",
   "scripts": {
-    "start": "jm-server",
-    "cluster": "jm-server --cluster",
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
     "test": "node test"
   },
   "repository": {
@@ -24,11 +24,12 @@
   },
   "homepage": "https://github.com/jm-root/jm-oms",
   "dependencies": {
-    "async": "*",
-    "jm-server": "*",
-    "jm-mq": "*",
-    "jm-config": "*",
-    "jm-sdk-core": "*"
+    "async": "^2.3.0",
+    "jm-config": "^1.0.3",
+    "jm-core": "~0.0.7",
+    "jm-mq": "~0.2.1",
+    "jm-sdk-core": "^0.0.12",
+    "jm-server": "~0.1.6"
   },
   "devDependencies": {
     "bluebird": "*",
