@@ -89,6 +89,35 @@ if ((typeof exports !== 'undefined' && typeof module !== 'undefined')) {
                 uri: url,
                 data: opts
             }, cb);
+        },
+        /**
+         * 获取所有导航菜单
+         * @function oms#nav
+         * @param {Object} [opts={}] 参数
+         * @example
+         * opts参数:{
+         *  token: (可选)
+         * }
+         * @param {callback} [cb=function(err,doc){}] 回调
+         * @example
+         * cb参数格式:
+         * doc参数:{
+         *  key:value
+         *  json对象
+         *  }
+         * 出错时, doc参数:{
+         *  err: 错误码,
+         *  msg: 错误信息
+         * }
+         */
+        allNav:function (opts,cb) {
+            cb || (cb = cb_default);
+            opts || (opts = {});
+            var url = '/navs/all';
+            this.client.get({
+                uri: url,
+                data: opts
+            }, cb);
         }
 
     };
