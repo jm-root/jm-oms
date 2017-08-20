@@ -4,7 +4,8 @@ import nav from './nav'
 let ms = MS()
 export default function (opts = {}) {
   let o = {
-    config: opts
+    config: opts,
+    ready: true
   }
   let bind = function (name, uri) {
     uri || (uri = '/' + name)

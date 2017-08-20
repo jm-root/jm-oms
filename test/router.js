@@ -8,6 +8,14 @@ let service = $(config)
 let router = service.router()
 
 describe('router', function () {
+  it('help', function (done) {
+    router.get('/',
+      function (err, doc) {
+        expect(doc).to.be.ok
+        console.log('%j', doc)
+        done()
+      })
+  })
   it('get', function (done) {
     router.get('/nav',
       function (err, doc) {

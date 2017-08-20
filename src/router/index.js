@@ -1,4 +1,5 @@
 import MS from 'jm-ms-core'
+import help from './help'
 
 let ms = new MS()
 export default function (opts = {}) {
@@ -16,6 +17,7 @@ export default function (opts = {}) {
 
   let router = ms.router()
   router
+    .use('/', help(service))
     .add('/nav', 'get', getNav)
   return router
 };
