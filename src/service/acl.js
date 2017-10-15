@@ -1,7 +1,8 @@
 var jm = require('jm-ms')
+let ms = jm()
 var app = null
-jm.ms.client({
-  uri: 'http://192.168.0.55:20110/acl'
+ms.client({
+  uri: 'http://api.h5.jamma.cn:81/acl'
 }, function (err, doc) {
   app = doc
 })

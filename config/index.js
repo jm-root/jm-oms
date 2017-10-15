@@ -4,10 +4,10 @@ var config = {
     debug: true,
     port: 3000,
     configRoot: 'oms',
-    gateway: 'http://api.mx.jamma.cn',
+    gateway: 'http://api.h5.jamma.cn:81',
     modules: {
       oms: {
-        module: process.cwd() + '/lib'
+        module: process.cwd() + '/src'
       }
     }
   },
