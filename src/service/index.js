@@ -1,6 +1,6 @@
 import MS from 'jm-ms'
 import nav from './nav'
-// import acl from './acl'
+import acl from './acl'
 
 let ms = MS()
 export default function (opts = {}) {
@@ -16,9 +16,9 @@ export default function (opts = {}) {
       !err && doc && (o[name] = doc)
     })
   }
-  // bind('acl')
+  bind('acl')
   bind('config')
   o.nav = nav(o, opts)
-  o.acl = require('./acl')
+  o.omsAcl = acl(o, opts)
   return o
 }

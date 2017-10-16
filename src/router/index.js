@@ -58,7 +58,7 @@ export default function (opts = {}) {
       }).then(function (all) {
       return new Promise(function (resolve, reject) {
         let limited = []
-        service.acl.userResources(user, function (err, doc) {
+        service.omsAcl.userResources(user, function (err, doc) {
           all.forEach(function (item) {
             if (doc[item.permission]) {
               limited.push(item)

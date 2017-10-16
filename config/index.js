@@ -12,7 +12,7 @@ var config = {
     }
   },
   production: {
-    port: 3000,
+    port: 80,
     gateway: 'http://gateway.app',
     modules: {
       oms: {
