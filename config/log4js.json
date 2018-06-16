@@ -1,13 +1,29 @@
 {
   "appenders": [
     {
+      "type": "dateFile",
+      "filename": "logs/console",
+      "pattern": "-yyyyMMdd.log",
+      "alwaysIncludePattern": true,
+      "category": [
+        "console"
+      ]
+    },
+    {
+      "type": "dateFile",
+      "filename": "logs/oms",
+      "pattern": "-yyyyMMdd.log",
+      "alwaysIncludePattern": true,
+      "category": [
+        "oms"
+      ]
+    },
+    {
       "type": "console"
     }
   ],
   "replaceConsole": true,
   "levels": {
-    "jm-ms-ws:server": "info",
-    "jm-ms-http:server": "info",
-    "jm-oms": "info"
+    "oms": "info"
   }
 }
