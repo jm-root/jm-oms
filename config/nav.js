@@ -66,7 +66,7 @@ module.exports = [
         'code': 'app.acl.users',
         'permission': 'nav_acl_user',
         'active': 'app.acl.users',
-        'uisref': 'app.acl.users'
+        'uisref': 'app.acl.users.list'
       },
       {
         'icon': 'icon-user',
